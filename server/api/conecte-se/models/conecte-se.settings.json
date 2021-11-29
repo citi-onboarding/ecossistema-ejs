@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "conecte_ses",
+  "info": {
+    "name": "Conecte-se",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Textodestacado": {
+      "type": "string"
+    },
+    "Paragrafo1": {
+      "type": "text"
+    },
+    "Paragrafo2": {
+      "type": "text"
+    }
+  }
+}
