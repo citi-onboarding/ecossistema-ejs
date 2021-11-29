@@ -1,0 +1,45 @@
+{
+  "kind": "singleType",
+  "collectionName": "footers",
+  "info": {
+    "name": "Footer"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "imagem": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "forma_de_contato_1": {
+      "type": "string"
+    },
+    "forma_de_contato_2": {
+      "type": "string"
+    },
+    "forma_de_contato_3": {
+      "type": "string"
+    },
+    "forma_de_contato_4": {
+      "type": "string"
+    },
+    "forma_de_contato_5": {
+      "type": "string"
+    },
+    "endereco": {
+      "type": "string"
+    }
+  }
+}
