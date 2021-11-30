@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "results",
+  "info": {
+    "name": "results"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "data_title": {
+      "type": "string"
+    },
+    "data": {
+      "type": "string"
+    }
+  }
+}
