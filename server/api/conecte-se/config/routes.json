@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/conecte-se",
+      "handler": "conecte-se.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/conecte-se",
+      "handler": "conecte-se.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/conecte-se",
+      "handler": "conecte-se.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

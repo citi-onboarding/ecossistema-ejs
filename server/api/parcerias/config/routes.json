@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/parcerias",
+      "handler": "parcerias.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/parcerias/count",
+      "handler": "parcerias.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/parcerias/:id",
+      "handler": "parcerias.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/parcerias",
+      "handler": "parcerias.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/parcerias/:id",
+      "handler": "parcerias.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/parcerias/:id",
+      "handler": "parcerias.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "e_js",
+  "info": {
+    "name": "EJs"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "FotoEJ": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "NomeEJ": {
+      "type": "string"
+    },
+    "AreaAtuacao": {
+      "type": "string"
+    },
+    "Universidade": {
+      "type": "string"
+    },
+    "Curso": {
+      "type": "string"
+    }
+  }
+}
