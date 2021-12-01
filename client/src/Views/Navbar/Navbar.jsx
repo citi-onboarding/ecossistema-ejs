@@ -7,7 +7,10 @@ import {
 function Navbar() {
   return (
     <nav className="navbar">
-        <div>Logo</div>
+        <div className="nav-logo">
+            <img src="/assets/svg/logo.svg" alt="Logo de Ecossistemas EJ" srcset="" />
+            <h1>Junior Enterprise Ecosystem</h1>
+        </div>
         <ul className="nav-list">
             <li>
                 <a href="#">Home</a>
@@ -16,7 +19,7 @@ function Navbar() {
                 <a href="#">Sobre nós</a>
             </li>
             <li>
-                <a href="#">Parceria</a>
+                <a href="#">Parcerias</a>
             </li>
             <li>
                 <a href="#"><b>Conecte-se</b></a>
