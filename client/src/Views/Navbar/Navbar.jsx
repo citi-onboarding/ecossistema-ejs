@@ -9,7 +9,7 @@ function Navbar() {
     <nav className="navbar">
         <div className="nav-logo">
             <img src="/assets/svg/logo.svg" alt="Logo de Ecossistemas EJ" srcset="" />
-            <h1>Junior Enterprise Ecosystem</h1>
+            <a>Junior Enterprise Ecosystem</a>
         </div>
         <ul className="nav-list">
             <li>
