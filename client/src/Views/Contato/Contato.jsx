@@ -1,6 +1,13 @@
 import React from "react";
 import './Contato.css'
 
+import{
+    Logoeco,
+    Youtube,
+    Instagram,
+    Google
+} from '../../assets';
+
 import {
     SocialMediaButton, 
     Contacttext
@@ -18,7 +25,7 @@ function Contato() {
                 </div>
             </section>
             <section id="logo">
-                <img src= "src/assets/logo.png" alt=""/>
+                <img src= {Logoeco} alt="" />
             </section>
             <section id="contact">
                 <div id="reach_us">
@@ -29,9 +36,9 @@ function Contato() {
                     </div>
                 </div>
                 <div id="socialmedia">
-                    <SocialMediaButton link="" image="" imagedescription=""/>
-                    <SocialMediaButton link="" image="" imagedescription=""/>
-                    <SocialMediaButton link="" image="" imagedescription=""/>
+                    <SocialMediaButton link="" image= {Instagram} imagedescription=""/>
+                    <SocialMediaButton link="" image= {Youtube} imagedescription=""/>
+                    <SocialMediaButton link="" image= {Google} imagedescription=""/>
                 </div>
             </section>
         </div>
