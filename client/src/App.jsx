@@ -4,13 +4,14 @@ import { Logo } from '../src/assets'
 import './style.css';
 
 import { 
-  Example, 
+  Enterprises, 
+  Example,
 } from './Views';
 
 const App = () => {
   return (
     <div className="App">
-      <Example/>
+      <Enterprises/>
   </div>
 )
   }

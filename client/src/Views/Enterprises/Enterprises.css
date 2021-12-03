@@ -1,0 +1,13 @@
+.our-ejs {
+    padding: 2rem 5rem;
+    background-color: #EDE5ED;
+    height: 100vh;
+}
+
+.our-ejs h1 {}
+
+.our-ejs .line {
+    width: 146px;
+    height: 0px;
+    border: 5px solid #141C15;
+}

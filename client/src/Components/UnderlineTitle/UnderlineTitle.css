@@ -1,0 +1,9 @@
+.underline-title {}
+
+.underline-title .line {
+    width: 146px;
+    height: 0px;
+    border: 1.2px solid #141C15;
+    background-color: #000;
+    border-radius: 10px;
+}
