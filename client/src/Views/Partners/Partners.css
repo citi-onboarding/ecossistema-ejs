@@ -1,3 +1,19 @@
+.PartnersTitle{
+    position: absolute;
+    left: 3.59%;
+    right: 63.62%;
+    top: 14.42%;
+    bottom: 81.63%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    color: #141C15;
+    }
+
 .Partners-div{
 position: absolute;
 height: 735.05px;
@@ -6,4 +22,88 @@ left: 0px;
 top: 2941px;
 border-radius: 0px;
 background-color:#F4F4F4AB;
+}
+.nubank1{
+position: absolute;
+left: 5.49%;
+right: 82.16%;
+top: 36.32%;
+bottom: 54.15%;
+}
+.nestle1{
+position: absolute;
+width: 177px;
+height: 113px;
+left: 373px;
+top: 250px;
+}
+.microsoft1{
+position: absolute;
+width: 224.85px;
+height: 59.83px;
+left: 714px;
+top: 277px;
+}
+.brasiljunior1{
+position: absolute;
+left: 77.23%;
+right: 6.31%;
+top: 31.83%;
+bottom: 48.03%;
+}
+.citipartner{
+position: absolute;
+left: 7.54%;
+right: 84.19%;
+top: 54.83%;
+bottom: 29.8%;
+}
+.google{
+position: absolute;
+left: 30.01%;
+right: 61.71%;
+top: 54.83%;
+bottom: 29.8%;
+}
+.inter{
+position: absolute;
+left: 54.54%;
+right: 33.02%;
+top: 58.09%;
+bottom: 33.66%;
+}
+.jewc{
+position: absolute;
+left: 79.36%;
+right: 8.44%;
+top: 51.97%;
+bottom: 27.9%;
+}
+.nubank2{
+position: absolute;
+left: 5.49%;
+right: 82.16%;
+top: 81.63%;
+bottom: 8.85%;
+}
+.nestle2{
+position: absolute;
+width: 177px;
+height: 113px;
+left: 373px;
+top: 557px;
+}
+.microsoft2{
+position: absolute;
+width: 224.85px;
+height: 59.83px;
+left: 727px;
+top: 580px;    
+}
+.brasiljunior2{
+position: absolute;
+left: 77.23%;
+right: 6.31%;
+top: 73.46%;
+bottom: 6.4%;
 }
