@@ -3,6 +3,7 @@ import './Banner.css'
 
 import {
     Button,
+    Divider
 } from '../../Components';
 
 function Banner() {
@@ -16,9 +17,7 @@ function Banner() {
         <div className="banner-image">
             <div className="image"></div>
         </div>
-        <div className="divider">
-            <img src="/assets/img/svg/onda.svg" alt="" />
-        </div>
+        <Divider/>
     </div>
   );
 }
