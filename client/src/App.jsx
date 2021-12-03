@@ -11,12 +11,8 @@ import {
 const App = () => {
   return (
     <div className="App">
-      <section id="footer-media">
-        <Contato/>
-      </section>
-      <section id="footer-dev">
-        <Footer/>
-      </section>
+      <Contato/>
+      <Footer/>
    </div>
   )
 }

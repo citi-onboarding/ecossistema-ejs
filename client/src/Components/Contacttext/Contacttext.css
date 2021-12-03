@@ -1,7 +1,20 @@
-p{
-    font-size: 20px;
-    line-height: 24px;
+.contact-text-div p{
     display: flex;
     align-items: center;
+    background-color: #027373;
     color: #E5E5E5;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+}
+
+.contact-text-div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    background-color: #027373;
 }
