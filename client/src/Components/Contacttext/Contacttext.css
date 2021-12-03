@@ -1,3 +1,9 @@
+.contact-text-div{
+    width: 100%;
+    display: flex;
+    background-color: #027373;
+}
+
 .contact-text-div p{
     display: flex;
     background-color: #027373;
@@ -10,8 +16,3 @@
     letter-spacing: 0em;
 }
 
-.contact-text-div{
-    width: 100%;
-    display: flex;
-    background-color: #027373;
-}
