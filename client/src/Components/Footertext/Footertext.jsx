@@ -5,7 +5,7 @@ import './Footertext.css';
 
 function Footertext(props) {
   return (
-    <div className="footer-text-div">
+    <div style={{justifyContent: props.justify}} className="footer-text-div">
        <p>{props.footertext}</p> 
     </div>
   );

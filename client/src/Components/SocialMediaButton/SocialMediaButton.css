@@ -1,6 +1,7 @@
-div {
-    width: 100%;
-    justify-content: center;
+.redesocial{
+    height: 25px;
+    width: 25px;
+    padding: 10px;
     background-color: #027373;
 }
 div a{
