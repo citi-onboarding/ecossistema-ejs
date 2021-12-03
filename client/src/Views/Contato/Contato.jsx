@@ -18,7 +18,7 @@ function Contato() {
                 </div>
             </section>
             <section id="logo">
-                <img src="" alt=""/>
+                <img src= "src/assets/logo.png" alt=""/>
             </section>
             <section id="contact">
                 <div id="reach_us">

@@ -30,3 +30,13 @@
     margin-bottom: 15px;
     margin-top: 15px;
 }
+
+#logo img{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 129px;
+    margin-right: 129px;
+    width: 200px;
+    height: 200px;
+    border: 2px #E5E5E5;
+}
