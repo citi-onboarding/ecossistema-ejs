@@ -1,11 +1,9 @@
 .banner {
     background-color: #04BFBF;
-    height: 100vh;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
     padding: 0 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .banner-text {
@@ -41,4 +39,13 @@
     border-radius: 179px 60px 60px 60px;
     width: 410px;
     height: 377px;
+}
+
+.max-width {
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1440px;
 }
