@@ -2,9 +2,9 @@
     position: absolute;
     bottom: -10px;
     left: 0;
-    width: 100vw;
+    width: 100%;
 }
 
 .divider img {
-    width: 100vw;
+    width: 100%;
 }
