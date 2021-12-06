@@ -1,9 +1,14 @@
-.underline-title {}
+.underline-title {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
 
 .underline-title .line {
     width: 146px;
     height: 0px;
-    border: 1.2px solid #141C15;
+    border: 2px solid #141C15!important;
     background-color: #000;
     border-radius: 10px;
+    margin-bottom: 70px;
 }

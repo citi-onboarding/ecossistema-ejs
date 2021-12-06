@@ -1,0 +1,28 @@
+.ej-wrap {
+    padding: 10px;
+    height: 400px;
+}
+
+.ej-card {
+    padding: 30px 45px;
+    height: 85%;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 27px;
+}
+
+.ej-card img {
+    width: 84px;
+    height: 56px;
+}
+
+.ej-card h3 {
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.ej-card p {
+    margin-top: 20px;
+    font-size: 14px;
+}

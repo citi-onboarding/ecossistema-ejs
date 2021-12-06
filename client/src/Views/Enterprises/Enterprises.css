@@ -4,10 +4,6 @@
     height: 100vh;
 }
 
-.our-ejs h1 {}
-
-.our-ejs .line {
-    width: 146px;
-    height: 0px;
-    border: 5px solid #141C15;
+.max-width {
+    max-width: 1440px;
 }
