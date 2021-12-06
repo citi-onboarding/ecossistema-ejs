@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 .AboutUs{
-    position: absolute;
     font-family: Montserrat;
     display: flex;
     justify-content: center;
@@ -11,7 +10,6 @@
     color: #E5E5E5;
 }
 h1{
-  position: absolute;
   left: 54.17%;
   right: 15.23%;
   top: 16.3%;
@@ -26,7 +24,6 @@ h1{
   color: #E5E5E5;
 }
 p{
-position: absolute;
 left: 54.17%;
 right: 12.15%;
 top: 32.34%;
@@ -45,7 +42,6 @@ color: #E5E5E5;
   flex-direction: column;
 }
 .imgAboutUs{
-position: absolute;
 left: 15.81%;
 right: 51.61%;
 top: 13.18%;
