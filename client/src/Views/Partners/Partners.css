@@ -1,9 +1,14 @@
+.Partners-div{
+height: 735.05px;
+width: 1366px;
+left: 0px;
+top: 2941px;
+border-radius: 0px;
+background-color:#F4F4F4AB;
+}
 .PartnersTitle{
-
-    left: 3.59%;
-    right: 63.62%;
-    top: 14.42%;
-    bottom: 81.63%;
+    padding-top: 106px;
+    padding-left: 49px;
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
@@ -14,83 +19,53 @@
     color: #141C15;
     }
 
-.Partners-div{
-height: 735.05px;
-width: 1366px;
-left: 0px;
-top: 2941px;
-border-radius: 0px;
-background-color:#F4F4F4AB;
+.PartnersGrid{
+    padding-top: 105px;
+    padding-left: 75px;
+    display: grid; 
+    grid-template-columns: 177px 177px 177px 177px; 
+    grid-template-rows: 113px 113px 113px; 
+    gap: 40px 150px; 
+    grid-template-areas: 
+      "logo1 logo2 logo3 logo4"
+      "logo5 logo6 logo7 logo8"
+      "logo9 logo10 logo11 logo12";   
 }
-.nubank1{
-left: 5.49%;
-right: 82.16%;
-top: 36.32%;
-bottom: 54.15%;
+
+.item1{
+    grid-area: logo1;
 }
-.nestle1{
-width: 177px;
-height: 113px;
-left: 373px;
-top: 250px;
+.item2{
+    grid-area: logo2;
 }
-.microsoft1{
-width: 224.85px;
-height: 59.83px;
-left: 714px;
-top: 277px;
+.item3{
+    grid-area: logo3;    
 }
-.brasiljunior1{
-left: 77.23%;
-right: 6.31%;
-top: 31.83%;
-bottom: 48.03%;
+.item4{
+    grid-area: logo4;
 }
-.citipartner{
-left: 7.54%;
-right: 84.19%;
-top: 54.83%;
-bottom: 29.8%;
+
+.item5{
+    grid-area: logo5;
 }
-.google{
-left: 30.01%;
-right: 61.71%;
-top: 54.83%;
-bottom: 29.8%;
+.item6{
+    grid-area: logo6;
 }
-.inter{
-left: 54.54%;
-right: 33.02%;
-top: 58.09%;
-bottom: 33.66%;
+.item7{
+    grid-area: logo7;
 }
-.jewc{
-left: 79.36%;
-right: 8.44%;
-top: 51.97%;
-bottom: 27.9%;
+.item8{
+    grid-area: logo8;
 }
-.nubank2{
-left: 5.49%;
-right: 82.16%;
-top: 81.63%;
-bottom: 8.85%;
+.item9{
+    grid-area: logo9;
 }
-.nestle2{
-width: 177px;
-height: 113px;
-left: 373px;
-top: 557px;
+.item10{
+    grid-area: logo10;
 }
-.microsoft2{
-width: 224.85px;
-height: 59.83px;
-left: 727px;
-top: 580px;    
+.item11{
+    grid-area: logo11;
 }
-.brasiljunior2{
-left: 77.23%;
-right: 6.31%;
-top: 73.46%;
-bottom: 6.4%;
+.item12{
+    grid-area: logo12;
 }

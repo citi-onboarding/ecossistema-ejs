@@ -1,19 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
-.AboutUs{
-    font-family: Montserrat;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 736px;
-    width: 1366px;
-    background-color:#027373;
-    color: #E5E5E5;
+.AboutUsPage{
+  height: 736px;
+  max-width: 440vh;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  background-color:#027373;
 }
-h1{
-  left: 54.17%;
-  right: 15.23%;
-  top: 16.3%;
-  bottom: 75.81%;
+.AboutUsContent{
+  padding-top: 97px;
+  padding-left: 216px;
+  padding-bottom: 189px;
+  padding-right: 166px;
+  display: flex;
+}
+.AboutUsImg{
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 24px;
+}
+.AboutUsText{
+padding-top: 23px;
+padding-left: 79px;
+}
+.AboutUsTitle{
+  padding-right: 42px;
   font-family: Montserrat;
   font-style: normal;
   font-weight: bold;
@@ -23,11 +33,23 @@ h1{
   align-items: center;
   color: #E5E5E5;
 }
-p{
-left: 54.17%;
-right: 12.15%;
-top: 32.34%;
-bottom: 34.74%;
+.AboutUsp{
+  padding-top: 59.93px;
+
+}
+
+.AboutUsp1{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #E5E5E5;  
+}
+.AboutUsp2{
+padding-top: 25px;
 font-family: Montserrat;
 font-style: normal;
 font-weight: normal;
@@ -35,20 +57,6 @@ font-size: 18px;
 line-height: 22px;
 display: flex;
 align-items: center;
-color: #E5E5E5;
-}
-.textos{
-  display: flex;
-  flex-direction: column;
-}
-.imgAboutUs{
-left: 15.81%;
-right: 51.61%;
-top: 13.18%;
-bottom: 25.68%;
-height: 450px;
-width: 445px;
-left: 216px;
-top: 97px;
-border-radius: 24px;
+color: #E5E5E5;  
+
 }

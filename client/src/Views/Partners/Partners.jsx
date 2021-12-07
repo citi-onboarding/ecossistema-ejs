@@ -8,24 +8,31 @@ import microsoft from '../../assets/microsoft.svg'
 import jewc from '../../assets/jewc.svg'
 import inter from '../../assets/inter.svg'
 import nubank from '../../assets/nubank.svg'
+import {
+  PartnersComponent,
+} from '../../Components';
 
 
 function Partners() {
   return (
-    <div className="Partners-div">  
-     <h1 className="PartnersTitle" >Empresas parceiras do ecossistema </h1>
-     <img src={nubank} height="70px" widht="168,69" alt="logo" className="nubank1"/>
-     <img src={nestle} height="113px" widht="177px" alt="logo" className="nestle1"/>
-     <img src={microsoft} height="59,83px" widht="224,85px" alt="logo" className="microsoft1"/>
-     <img src={brasiljunior} height="148px" widht="224,85px" alt="logo" className="brasiljunior1"/>
-     <img src={google} height="113" widht="113" alt="logo" className="google"/>
-     <img src={citipartner} height="113px" widht="113px" alt="logo" className="citipartner"/>
-     <img src={inter} height="60,63px" widht="170px" alt="logo" className="inter"/>
-     <img src={jewc} height="148px" widht="166,72px" alt="logo"className="jewc"/>
-     <img src={nubank} height="70px" widht="168,69" alt="logo" className="nubank2"/>
-     <img src={nestle} height="113px" widht="177px" alt="logo"className="nestle2"/>
-     <img src={microsoft} height="59,83px" widht="224,85px" alt="logo"className="microsoft2"/>
-     <img src={brasiljunior} height="148px" widht="224,85px" alt="logo"className="brasiljunior2"/>
+    <div className="Partners-div">]
+     <div className="PartnersContent"> 
+       <h1 className="PartnersTitle" >Empresas parceiras do ecossistema </h1>
+       <div className="PartnersGrid">
+         <PartnersComponent partnericon={nubank} itemName="item1"/>
+         <PartnersComponent partnericon={nestle} itemName="item2"/>
+         <PartnersComponent partnericon={microsoft} itemName="item3"/>
+         <PartnersComponent partnericon={brasiljunior} itemName="item4"/>
+         <PartnersComponent partnericon={google} itemName="item5"/>
+         <PartnersComponent partnericon={citipartner} itemName="item6"/>
+         <PartnersComponent partnericon={inter} itemName="item7"/>
+         <PartnersComponent partnericon={jewc} itemName="item8"/>
+         <PartnersComponent partnericon={nubank} itemName="item9"/>
+         <PartnersComponent partnericon={nestle} itemName="item10"/>
+         <PartnersComponent partnericon={microsoft} itemName="item11"/>
+         <PartnersComponent partnericon={brasiljunior} itemName="item12"/>
+       </div>
+      </div> 
     </div>
   );
 }
