@@ -1,13 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 .AboutUsPage{
   height: 736px;
-  max-width: 440vh;
+  width: 100vw;
   align-items: center;
   justify-content: center;
   box-sizing: border-box;
   background-color:#027373;
 }
 .AboutUsContent{
+  max-width: 1440px;
+  margin: auto;
   padding-top: 97px;
   padding-left: 216px;
   padding-bottom: 189px;

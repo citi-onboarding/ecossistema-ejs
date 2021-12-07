@@ -1,10 +1,14 @@
 .Partners-div{
 height: 735.05px;
-max-width: 440vh;
+width: 100vw ;
 left: 0px;
 top: 2941px;
 border-radius: 0px;
 background-color:#F4F4F4AB;
+}
+.PartnersContent{
+    max-width: 1440px;
+    margin: auto;
 }
 .PartnersTitle{
     padding-top: 106px;
