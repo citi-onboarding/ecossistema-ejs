@@ -4,9 +4,10 @@ import { Logo } from '../src/assets'
 import './style.css';
 
 import { 
-  Example,
   Navbar,
-  Banner, 
+  Banner,
+  AboutUs, 
+  Partners,
 } from './Views';
 
 const App = () => {
@@ -14,6 +15,8 @@ const App = () => {
     <div className="App">
       <Navbar/>
       <Banner/>
+      <AboutUs/>
+      <Partners/>
   </div>
 )
   }
