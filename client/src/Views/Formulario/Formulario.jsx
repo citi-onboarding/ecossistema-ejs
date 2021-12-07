@@ -21,10 +21,10 @@ function Formulario(){
                 entre em contato conosco! Junte-se a nós na busca de um Brasil mais empreendedor!"/>
             </div>
             <div className="formulario" id="forms-info">
-                <Formsfield tipo="text"/>
-                <Formsfield tipo="email"/>
-                <Formsfield tipo="text"/>
-                <Formsfield tipo="text"/>
+                <Formsfield tipo="text" holder="Digite seu nome" height="50px"/>
+                <Formsfield tipo="email" holder="Digite seu melhor e-mail" height="50px"/>
+                <Formsfield tipo="text" holder="Digite o assunto" height="50px"/>
+                <Formsfield tipo="text" holder="Tire suas dúvidas ou nos mande uma mensagem" height="140px"/>
             </div>
         </div>
     </div>

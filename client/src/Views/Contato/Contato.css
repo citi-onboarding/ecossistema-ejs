@@ -6,9 +6,10 @@
     justify-content: center;
 }
 .contato{
+    width: 100%;
     max-width: 1440px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 #addres{
     margin-top: 120px;
