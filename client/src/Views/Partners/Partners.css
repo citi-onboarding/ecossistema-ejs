@@ -1,16 +1,18 @@
-.Partners-div{
-height: 735.05px;
-width: 100vw ;
-left: 0px;
-top: 2941px;
-border-radius: 0px;
-background-color:#F4F4F4AB;
+.Partners-div {
+    height: 735.05px;
+    width: 100%;
+    left: 0px;
+    top: 2941px;
+    border-radius: 0px;
+    background-color: #f4f4f4ab;
 }
-.PartnersContent{
+
+.PartnersContent {
     max-width: 1440px;
     margin: auto;
 }
-.PartnersTitle{
+
+.PartnersTitle {
     padding-top: 106px;
     padding-left: 49px;
     font-family: Montserrat;
@@ -20,54 +22,61 @@ background-color:#F4F4F4AB;
     line-height: 29px;
     display: flex;
     align-items: center;
-    color: #141C15;
-    }
-
-.PartnersGrid{
-    padding-top: 105px;
-    display: grid; 
-    grid-template-columns: 25% 25% 25% 25%; 
-    grid-template-rows: 33% 33% 33%; 
-    grid-template-areas: 
-      "logo1 logo2 logo3 logo4"
-      "logo5 logo6 logo7 logo8"
-      "logo9 logo10 logo11 logo12";   
+    color: #141c15;
 }
 
-.item1{
+.PartnersGrid {
+    padding-top: 105px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 33% 33% 33%;
+    grid-template-areas: "logo1 logo2 logo3 logo4" "logo5 logo6 logo7 logo8" "logo9 logo10 logo11 logo12";
+}
+
+.item1 {
     grid-area: logo1;
 }
-.item2{
+
+.item2 {
     grid-area: logo2;
 }
-.item3{
-    grid-area: logo3;    
+
+.item3 {
+    grid-area: logo3;
 }
-.item4{
+
+.item4 {
     grid-area: logo4;
 }
 
-.item5{
+.item5 {
     grid-area: logo5;
 }
-.item6{
+
+.item6 {
     grid-area: logo6;
 }
-.item7{
+
+.item7 {
     grid-area: logo7;
 }
-.item8{
+
+.item8 {
     grid-area: logo8;
 }
-.item9{
+
+.item9 {
     grid-area: logo9;
 }
-.item10{
+
+.item10 {
     grid-area: logo10;
 }
-.item11{
+
+.item11 {
     grid-area: logo11;
 }
-.item12{
+
+.item12 {
     grid-area: logo12;
 }
