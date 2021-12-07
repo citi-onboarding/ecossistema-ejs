@@ -1,0 +1,16 @@
+.results-data{
+    text-align: center;
+    padding-bottom: 4rem;
+}
+
+.results-data h3{
+    font-size: 48px;
+    font-weight: 700;
+    color: #04BFBF;
+}
+
+.results-data h4{
+    font-size: 24px;
+    font-weight: 700;
+    color: #04BFBF;
+}
