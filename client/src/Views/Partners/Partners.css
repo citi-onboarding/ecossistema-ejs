@@ -24,12 +24,11 @@ background-color:#F4F4F4AB;
     }
 
 .PartnersGrid{
+    width: 98vw;
     padding-top: 105px;
-    padding-left: 75px;
     display: grid; 
-    grid-template-columns: 177px 177px 177px 177px; 
-    grid-template-rows: 113px 113px 113px; 
-    gap: 40px 150px; 
+    grid-template-columns: 25% 25% 25% 25%; 
+    grid-template-rows: 33% 33% 33%; 
     grid-template-areas: 
       "logo1 logo2 logo3 logo4"
       "logo5 logo6 logo7 logo8"
