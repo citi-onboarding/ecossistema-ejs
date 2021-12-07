@@ -24,7 +24,6 @@ background-color:#F4F4F4AB;
     }
 
 .PartnersGrid{
-    width: 98vw;
     padding-top: 105px;
     display: grid; 
     grid-template-columns: 25% 25% 25% 25%; 
