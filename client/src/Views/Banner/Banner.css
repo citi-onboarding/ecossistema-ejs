@@ -1,5 +1,8 @@
 .banner {
     background-color: #04BFBF;
+}
+
+.banner-content {
     padding: 0 5rem;
     display: flex;
     flex-direction: column;
@@ -41,8 +44,8 @@
     height: 377px;
 }
 
-.max-width {
-    height: 100vh;
+.banner .max-width {
+    height: 80vh;
     display: flex;
     justify-content: space-between;
     align-items: center;

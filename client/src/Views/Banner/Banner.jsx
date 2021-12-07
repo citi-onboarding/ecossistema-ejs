@@ -9,6 +9,7 @@ import {
 function Banner() {
   return (
     <div className="banner">
+    <div className="banner-content">
       <div className="max-width">
         <div className="banner-text">
             <h1>Onde tudo se conecta e você evolui</h1>
@@ -19,7 +20,9 @@ function Banner() {
             <div className="image"></div>
         </div>
         </div>
-        <Divider/>
+        
+    </div>
+    <Divider/>
     </div>
   );
 }
