@@ -7,3 +7,16 @@
 .max-width {
     max-width: 1440px;
 }
+
+.slick-prev {
+    margin-left: -20px!important;
+}
+
+.slick-prev:before {
+    content: url('../../assets/left-arrow.png')!important;
+}
+
+.slick-next:before {
+    content: url('../../assets/right-arrow.png')!important;
+    max-width: 10px;
+}

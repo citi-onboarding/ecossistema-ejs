@@ -12,7 +12,7 @@ import { Bandeira1, Bandeira2, Bandeira3, Bandeira4 } from "../../assets";
 
 function Enterprises() {
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 500,
     slidesToShow: 4,

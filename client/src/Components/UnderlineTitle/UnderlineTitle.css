@@ -1,7 +1,7 @@
 .underline-title {
     display: flex;
     flex-direction: column;
-    margin-top: 100px;
+    margin-top: 80px;
 }
 
 .underline-title .line {
@@ -11,4 +11,5 @@
     background-color: #000;
     border-radius: 10px;
     margin-bottom: 70px;
+    margin-top: 8px;
 }
