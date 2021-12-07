@@ -5,13 +5,15 @@ import './style.css';
 import {
   Contato, 
   Footer,
-  Waveshapeforms
+  Formulario,
+  Waveshapeforms,
 } from './Views';
 
 
 const App = () => {
   return (
     <div className="App">
+      <Formulario/>
       <Waveshapeforms/>
       <Contato/>
       <Footer/>
