@@ -15,7 +15,7 @@ import {
 
 function Partners() {
   return (
-    <div className="Partners-div">]
+    <div className="Partners-div">
      <div className="PartnersContent"> 
        <h1 className="PartnersTitle" >Empresas parceiras do ecossistema </h1>
        <div className="PartnersGrid">
