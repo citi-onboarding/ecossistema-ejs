@@ -5,8 +5,10 @@ import './Formsfield.css';
 
 function Formsfield(props) {
   return (
-    <div style={{justifyContent: props.justify}} className="footer-text-div">
-       <p>{props.footertext}</p> 
+    <div className="forms-text-div">
+      <form>
+        <input type={props.tipo} placeholder={props.holder} style={{height: props.height}}/>
+      </form>
     </div>
   );
 }
