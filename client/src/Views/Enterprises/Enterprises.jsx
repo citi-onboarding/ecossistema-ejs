@@ -20,7 +20,7 @@ function Enterprises() {
   };
   return (
     <div className="our-ejs">
-      <div className="max-width">
+      <div className="enterprises-width">
         <UnderlineTitle title="Nossas Empresas Juniores" />
         <Slider {...settings}>
           <EjCard
