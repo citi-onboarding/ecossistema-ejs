@@ -48,7 +48,7 @@ function Formulario() {
             </div>
             <div className="formulario" id="forms-info">
               <form className='Form' onSubmit={sendEmail}> 
-                <input
+                <input className="form-field"
                 value={name} 
                 type="text" 
                 name="name" 
@@ -56,7 +56,7 @@ function Formulario() {
                 required
                 onChange={(e) => setName(e.target.value)}
                  />
-                <input
+                <input className="form-field"
                 value={email}  
                 type="email"
                 name="email"
@@ -64,7 +64,7 @@ function Formulario() {
                 required
                 onChange={(e) => setEmail(e.target.value)} 
                 />
-                <input
+                <input className="form-field"
                 value={subject} 
                 type="text" 
                 name="subject"
@@ -72,7 +72,7 @@ function Formulario() {
                 required
                 onChange={(e) => setSubject(e.target.value)}
                 />
-                <textarea
+                <textarea className="form-field" id="textarea"
                 value={message} 
                 name="message"
                 placeholder="Tire suas dúvidas ou nos mande uma mensagem" 

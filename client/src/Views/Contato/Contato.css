@@ -41,7 +41,7 @@
     justify-content: center;
 }
 
-#logo img{
+#logo{
     margin-top: 100px;
     margin-bottom: 100px;
     margin-left: 129px;
@@ -54,4 +54,9 @@
     border: 1.74318px;
     box-sizing: border-box;
     background-color: #fff;
+}
+img{
+    width: 142.12px;
+    height: 158.59px;
+    padding-top: 20px;
 }

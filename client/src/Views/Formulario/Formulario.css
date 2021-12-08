@@ -46,8 +46,14 @@ input{
     line-height: 20px;
     text-align: left;
     color: rgba(0, 0, 0, 0.7);
-    padding-left: 4px;
+    padding-left: 10px;
     height: 50px;
+}
+.form-field{
+    padding-left: 30px;
+}
+#textarea{
+    padding-top: 10px;
 }
 textarea{
     background: #FFFFFF;
