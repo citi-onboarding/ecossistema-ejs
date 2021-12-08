@@ -6,6 +6,7 @@ import {
   Results,
   Contato, 
   Footer,
+  Formulario,
   Waveshapeforms,
   Enterprises, 
   Example,
@@ -25,6 +26,7 @@ const App = () => {
       <Results/>
       <Enterprises/>
       <Partners/>
+      <Formulario/>
       <Waveshapeforms/>
       <Contato/>
       <Footer/>
