@@ -15,10 +15,10 @@ import {
 const App = () => {
   return (
     <div className="App">
-      <Enterprises/>
       <Navbar/>
       <Banner/>
       <AboutUs/>
+      <Enterprises/>
       <Partners/>
   </div>
 )
