@@ -1,9 +1,11 @@
 import React from 'react';
-import { Logo } from '../src/assets'
-
+//import { Logo } from '../src/assets'
 import './style.css';
 
 import { 
+  Contato, 
+  Footer,
+  Waveshapeforms,
   Enterprises, 
   Example,
   Navbar,
@@ -11,6 +13,7 @@ import {
   AboutUs, 
   Partners,
 } from './Views';
+
 
 const App = () => {
   return (
@@ -20,8 +23,11 @@ const App = () => {
       <AboutUs/>
       <Enterprises/>
       <Partners/>
-  </div>
-)
-  }
+      <Waveshapeforms/>
+      <Contato/>
+      <Footer/>
+   </div>
+  )
+}
 
 export default App;

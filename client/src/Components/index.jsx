@@ -1,4 +1,8 @@
 export {default as ExampleComponent} from './ExampleComponent';
+export {default as SocialMediaButton} from './SocialMediaButton';
+export {default as Contacttext} from './Contacttext';
+export {default as Footertext} from './Footertext';
+export {default as Waveshape} from './Waveshape';
 export {default as UnderlineTitle} from './UnderlineTitle';
 export {default as EjCard} from './EjCard';
 export {default as PartnersComponent} from './PartnersComponent';
