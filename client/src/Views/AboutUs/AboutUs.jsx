@@ -1,8 +1,24 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './AboutUs.css';
 import aboutus from '../../assets/aboutus.png'
 
+import { useState } from 'react';
+
+import axios from 'axios';
+
 function AboutUs() {
+  const [title, setTitle] = useState()
+
+  const getTitle = async () => {
+    const res = await axios.get("http://localhost:1337/about-us");
+    const { texto } = res.data;
+    console.log(texto)
+    setTitle(texto);
+  };
+
+  useEffect (() => {
+    getTitle();
+  }, [])
   return (
     <div className="AboutUsPage">
      <div className="AboutUsContent">
