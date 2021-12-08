@@ -1,0 +1,50 @@
+.results-div {
+    width: 100%;
+    height: 735px;
+    background: rgba(244, 244, 244, 0.67);
+    ;
+}
+
+.results-content {
+    padding-top: 109px;
+    display: flex;
+    margin: auto;
+}
+
+.results-text {
+    display: flex;
+    margin: auto;
+    max-width: 35%;
+}
+
+.results-text h1 {
+    padding-left: 49px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    color: #141C15;
+}
+
+.results-text p {
+    padding-left: 51px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    align-items: center;
+    color: #292929;
+    width: 344px;
+}
+
+.results-group {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 75%;
+}
+
+.max-width {
+    margin: auto;
+    max-width: 1440px;
+}

@@ -8,6 +8,7 @@ function ExampleComponent(props) {
   return (
     <div className="example-component-div">
        <h1 style={{color:props.textColor}}> {props.titleText}</h1> 
+       <span className="line"></span>
     </div>
   );
 }
