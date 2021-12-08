@@ -10,14 +10,18 @@
     max-width: 1440px;
     display: flex;
     justify-content: space-between;
-
 }
 .formulario{
     margin-top: 120px;
     max-width: 700px;
 }
+.Form{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+}
 #forms-info{
-    padding-right: 40px;
+    padding-right: 120px;
 }
 #conecte-text{
     padding-left: 40px;
@@ -27,4 +31,54 @@
     max-width: 435px;
     display: block;
     justify-content: start;
+}
+input{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    border: none;
+    width: 455px;
+    margin-bottom: 20px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.7);
+    padding-left: 4px;
+    height: 50px;
+}
+textarea{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    border: none;
+    width: 455px;
+    margin-bottom: 20px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.7);
+    padding-left: 4px; 
+    height: 145px;
+    resize: none;
+}
+button{
+    background: #027373;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 20px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFF;
+    padding-left: 4px;
+    height: 45px;
+    width: 145px;
 }

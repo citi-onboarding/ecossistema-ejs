@@ -6,9 +6,7 @@ import './Formsfield.css';
 function Formsfield(props) {
   return (
     <div className="forms-text-div">
-      <form>
-        <input type={props.tipo} placeholder={props.holder} style={{height: props.height}}/>
-      </form>
+        <input value={props.value} type={props.tipo} placeholder={props.holder} style={{height: props.height}} required/>
     </div>
   );
 }

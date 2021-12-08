@@ -1,12 +1,39 @@
-import React from 'react'
+import { useState } from 'react';
+import axios from 'axios';
+import React from 'react';
+
+import {url} from "../../config/config";
+
 import './Formulario.css';
 
 import {
-  Formsfield,
   Formstext
 } from '../../Components';
 
-function Formulario(){
+function Formulario() {
+
+  const [name, setName] = useState([]); 
+  const [email, setEmail] = useState([]);
+  const [subject, setSubject] = useState([]);
+  const [message, setMessage] = useState([]);
+
+  const data = { 
+    name, email, subject, message
+  }
+
+  const sendEmail = async (event) => { 
+    try{
+     event.preventDefault() 
+      await axios.post(`${url}/emails`, data);
+      alert("Sucesso! Sua mensagem foi enviada!")
+      setName("")
+      setEmail("")
+      setSubject("")
+      setMessage("")
+    } catch (error) {
+      alert(`Algo deu errado: ${error}`)
+    }
+  }
   return (
     <div className="conecte-se">
         <div className="container">
@@ -21,14 +48,44 @@ function Formulario(){
                 entre em contato conosco! Junte-se a nós na busca de um Brasil mais empreendedor!"/>
             </div>
             <div className="formulario" id="forms-info">
-                <Formsfield tipo="text" holder="Digite seu nome" height="50px"/>
-                <Formsfield tipo="email" holder="Digite seu melhor e-mail" height="50px"/>
-                <Formsfield tipo="text" holder="Digite o assunto" height="50px"/>
-                <Formsfield tipo="text" holder="Tire suas dúvidas ou nos mande uma mensagem" height="140px"/>
+              <form className='Form' onSubmit={sendEmail}> 
+                <input
+                value={name} 
+                type="text" 
+                name="name" 
+                placeholder="Digite seu nome"
+                required
+                onChange={(e) => setName(e.target.value)}
+                 />
+                <input
+                value={email}  
+                type="email"
+                name="email"
+                placeholder="Digite seu melhor e-mail"
+                required
+                onChange={(e) => setEmail(e.target.value)} 
+                />
+                <input
+                value={subject} 
+                type="text" 
+                name="subject"
+                placeholder="Digite o assunto"
+                required
+                onChange={(e) => setSubject(e.target.value)}
+                />
+                <textarea
+                value={message} 
+                name="message"
+                placeholder="Tire suas dúvidas ou nos mande uma mensagem" 
+                rows="10" 
+                required
+                onChange={(e) => setMessage(e.target.value)}
+                />
+                <button className="form-buttom" type='submit'>ENVIAR</button>
+              </form>
             </div>
         </div>
     </div>
   );
 }
-
 export default Formulario;
