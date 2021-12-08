@@ -9,7 +9,9 @@
     margin: auto;
 }
 .results-text{
-    width: 35%;
+    display: flex ;
+    margin: auto;
+    max-width: 35%;
 }
 .results-text h1{
     padding-left: 49px;
