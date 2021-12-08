@@ -3,12 +3,14 @@ import './Results.css'
 
 import {
     ResultsData,
+    UnderlineTitle,
 } from '../../Components';
 
 function Results() {
     return (
         <div className="results-div">
             <div className="max-width">
+                <UnderlineTitle title="Resultados da rede"/>
                 <div className="results-content">
                     <div className="results-text">
                         <p>Somos um ecossistema de desenvolvimento social que atua em rede para acelerar o poder de impacto de líderes de favelas de todo país que possuem um sonho em comum: colocar a pobreza das favelas no museu. Nosso foco são iniciativas transformadoras, capazes de gerar resultados de longo prazo. Entregamos serviços de educação, desenvolvimento econômico e cidadania em territórios de favela e executamos programas de transformação sistêmica</p>
