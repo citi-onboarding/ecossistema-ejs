@@ -1,0 +1,12 @@
+.PartnersC{
+    padding: 20px 0px;
+    margin: auto;
+    height: 113px;
+    width: 177px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.PartnersC img{
+    max-width: 100%;
+}
