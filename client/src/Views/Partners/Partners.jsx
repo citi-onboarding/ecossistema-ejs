@@ -10,6 +10,7 @@ import inter from '../../assets/inter.svg'
 import nubank from '../../assets/nubank.svg'
 import {
   PartnersComponent,
+  UnderlineTitle
 } from '../../Components';
 
 
@@ -17,7 +18,7 @@ function Partners() {
   return (
     <div className="Partners-div">
      <div className="PartnersContent"> 
-       <h1 className="PartnersTitle" >Empresas parceiras do ecossistema </h1>
+       <UnderlineTitle title="Empresas parceiras do ecossistema"/>
        <div className="PartnersGrid">
          <PartnersComponent partnericon={nubank} itemName="item1"/>
          <PartnersComponent partnericon={nestle} itemName="item2"/>

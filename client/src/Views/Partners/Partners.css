@@ -10,6 +10,7 @@
 .PartnersContent {
     max-width: 1440px;
     margin: auto;
+    padding-top: 1px;
 }
 
 .PartnersTitle {
