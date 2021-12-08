@@ -21,7 +21,7 @@ module.exports = ({ env }) => ({
         pass: env('EMAIL_SMTP_PASS'),
       },
 		settings: {
-				defaultFrom: "Ecossistema EJ's" 
+				defaultFrom: "Nome desejado" 
       },
     },
   },
