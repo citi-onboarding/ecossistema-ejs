@@ -3,6 +3,7 @@ import React from 'react';
 import './style.css';
 
 import { 
+  Results,
   Contato, 
   Footer,
   Waveshapeforms,
@@ -21,6 +22,7 @@ const App = () => {
       <Navbar/>
       <Banner/>
       <AboutUs/>
+      <Results/>
       <Enterprises/>
       <Partners/>
       <Waveshapeforms/>
