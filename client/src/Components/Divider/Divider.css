@@ -1,0 +1,10 @@
+.divider {
+    position: relative;
+    bottom: -10px;
+    left: 0;
+    width: 100%;
+}
+
+.divider img {
+    width: 100%;
+}
