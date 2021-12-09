@@ -38,8 +38,8 @@ function Formulario() {
     <div className="conecte-se">
         <div className="container">
             <div>
-              <UnderlineTitle title="Conecte com outra Empresa Júnior"/>
                 <div className="formulario" id="conecte-text">
+                  <UnderlineTitle title="Conecte com outra Empresa Júnior"/>
                     <Formstext justify="right" Contacttext="Com o apoio da FEJESP, você encaminha a 
                     sua demanda por projetos ou serviços de consultoria e nós colocamos você em contato 
                     com a Empresa Júnior que mais se encaixa com as suas necessidades."/>
