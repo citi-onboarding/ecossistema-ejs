@@ -12,13 +12,13 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Textodestacado": {
-      "type": "string"
-    },
-    "Paragrafo1": {
+    "Paragrafo_1": {
       "type": "text"
     },
-    "Paragrafo2": {
+    "Paragrafo_2": {
+      "type": "text"
+    },
+    "Paragrafo_3": {
       "type": "text"
     }
   }

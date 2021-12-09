@@ -1,11 +1,13 @@
 import React from "react";
+import {useEffect} from "react";
+import {useState} from "react";
+import axios from 'axios';
 import './Contato.css'
 
 import{
-    Logoeco,
     Youtube,
     Instagram,
-    Google
+    Googlefooter
 } from '../../assets';
 
 import {
@@ -14,33 +16,54 @@ import {
 } from '../../Components';
 
 function Contato() {
+
+    const [imagem, setImagem] = useState([]); 
+    const [telefone, setTelefone] = useState([]);
+    const [email, setEmail] = useState([]);
+    const [instagram, setInstagram] = useState([]); 
+    const [youtube, setYoutube] = useState([]);
+    const [google, setGoogle] = useState([]);
+    const [endereco, setEndereco] = useState([]);
+  
+    const getFooter = async () => {
+      const res = await axios.get(`http://localhost:1337/footer`);
+      const { Imagem, Telefone, Email, Instagram, Youtube, Google, Endereco } = res.data;
+      setImagem(Imagem);
+      setTelefone(Telefone);
+      setEmail(Email);
+      setInstagram(Instagram);
+      setYoutube(Youtube);
+      setGoogle(Google);
+      setEndereco(Endereco);
+    };
+    useEffect (() => {
+      getFooter();
+    }, [])
+
     return (
         <div className="contactus">
             <div className="contato">
                 <section className="addres">
                         <div>
                             <Contacttext justify="left" Contacttext="Onde nos encontrar:"/>
-                            <Contacttext justify="left" Contacttext="Av. Jornalista Aníbal Fernandes, s/n –
-                                Cidade Universitária, Recife – PE,
-                                50740-560"/>
+                            <Contacttext justify="left" Contacttext={endereco}/>
                         </div>
                     </section>
-                    <section className="logo">
-                        <img className="logo-image"src= {Logoeco} alt="Logo do Ecossistema Internacional
-                        de Empresas Juniores" />
+                    <section id="logo">
+                        <img src= {imagem?.url} alt=""/>
                     </section>
                     <section className="contact">
                         <div className="reach_us">
                             <Contacttext justify="right" Contacttext="Fale conosco!"/>
-                            <Contacttext justify="right" Contacttext="+55 (81) 99429-9649"/>
-                            <div className="email">
-                                <Contacttext justify="right" Contacttext="contato@citi.org.br"/>
+                            <Contacttext justify="right" Contacttext={telefone}/>
+                            <div id="email">
+                                <Contacttext justify="right" Contacttext={email}/>
                             </div>
                         </div>
-                        <div className="socialmedia">
-                            <SocialMediaButton link="" image= {Instagram} imagedescription=""/>
-                            <SocialMediaButton link="" image= {Youtube} imagedescription=""/>
-                            <SocialMediaButton link="" image= {Google} imagedescription=""/>
+                        <div id="socialmedia">
+                            <SocialMediaButton link={instagram} image= {Instagram} imagedescription=""/>
+                            <SocialMediaButton link={youtube} image= {Youtube} imagedescription=""/>
+                            <SocialMediaButton link={google} image= {Googlefooter} imagedescription=""/>
                         </div>
                     </section>
             </div>
