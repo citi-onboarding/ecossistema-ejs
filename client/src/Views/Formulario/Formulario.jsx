@@ -7,7 +7,8 @@ import {url} from "../../config/config";
 import './Formulario.css';
 
 import {
-  Formstext
+  Formstext,
+  UnderlineTitle
 } from '../../Components';
 
 function Formulario() {
@@ -51,12 +52,13 @@ function Formulario() {
   }, [])
   return (
     <div className="conecte-se">
-        <div className="conecte-se-container">
-            <div className="formulario" id="conecte-text">
-                <Formstext justify="right" Contacttext={paragrafo1}/>
-                <Formstext justify="right" Contacttext={paragrafo2}/>
-                <Formstext justify="right" Contacttext={paragrafo3}/>
-            </div>
+        <div className="container">
+                <div className="formulario" id="conecte-text">
+                  <UnderlineTitle title="Conecte com outra Empresa Júnior"/>
+                    <Formstext justify="right" Contacttext={paragrafo1}/>
+                  <Formstext justify="right" Contacttext={paragrafo2}/>
+                  <Formstext justify="right" Contacttext={paragrafo3}/>
+                </div>
             <div className="formulario" id="forms-info">
               <form className='Form' onSubmit={sendEmail}> 
                 <input className="form-field"
