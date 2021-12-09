@@ -44,7 +44,7 @@ function Enterprises() {
                   <EjCard
             university={Universidade}
             class={Curso}
-            image={FotoEJ[0].url}
+            image={FotoEJ[0]?.url}
             title={NomeEJ}
             category={AreaAtuacao}
           />
