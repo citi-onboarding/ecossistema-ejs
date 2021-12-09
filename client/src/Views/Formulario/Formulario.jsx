@@ -35,7 +35,7 @@ function Formulario() {
   }
   return (
     <div className="conecte-se">
-        <div className="container">
+        <div className="conecte-se-container">
             <div className="formulario" id="conecte-text">
                 <Formstext justify="right" Contacttext="Com o apoio da FEJESP, você encaminha a 
                 sua demanda por projetos ou serviços de consultoria e nós colocamos você em contato 
@@ -72,7 +72,7 @@ function Formulario() {
                 required
                 onChange={(e) => setSubject(e.target.value)}
                 />
-                <textarea className="form-field" id="textarea"
+                <textarea className="form-message" id="textarea"
                 value={message} 
                 name="message"
                 placeholder="Tire suas dúvidas ou nos mande uma mensagem" 
@@ -80,7 +80,7 @@ function Formulario() {
                 required
                 onChange={(e) => setMessage(e.target.value)}
                 />
-                <button className="form-buttom" type='submit'>ENVIAR</button>
+                <button className="form-button" type='submit'>ENVIAR</button>
               </form>
             </div>
         </div>
