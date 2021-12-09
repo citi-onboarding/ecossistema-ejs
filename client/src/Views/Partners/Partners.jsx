@@ -23,7 +23,7 @@ function Partners() {
     getpartners();
   }, [])
   return (
-    <div className="Partners-div">
+    <div className="Partners-div" id='partners'>
      <div className="PartnersContent"> 
        <UnderlineTitle title="Empresas parceiras do ecossistema"/>
        <div className="PartnersGrid">

@@ -20,7 +20,6 @@ import {
 const App = () => {
   return (
     <div className="App">
-      <Navbar/>
       <Banner/>
       <AboutUs/>
       <Results/>

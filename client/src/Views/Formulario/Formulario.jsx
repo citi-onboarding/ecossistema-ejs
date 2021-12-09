@@ -51,7 +51,7 @@ function Formulario() {
     getParagraph();
   }, [])
   return (
-    <div className="conecte-se">
+    <div className="conecte-se" id="contact">
         <div className="conecte-se-container">
               <div className="formulario" id="conecte-text">
               <UnderlineTitle title="Conecte com outra Empresa Júnior"/>

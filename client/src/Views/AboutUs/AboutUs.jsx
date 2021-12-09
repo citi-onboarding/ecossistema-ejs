@@ -23,7 +23,7 @@ function AboutUs() {
     getTitle();
   }, [])
   return (
-    <div className="AboutUsPage">
+    <div className="AboutUsPage" id='aboutus'>
      <div className="AboutUsContent">
        <div className="AboutUsImg"><img src={image} alt="Sobre nós" widht="445px" height="450px"/> </div>    
        <div className="AboutUsText" >

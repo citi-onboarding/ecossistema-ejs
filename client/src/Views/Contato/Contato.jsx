@@ -41,7 +41,7 @@ function Contato() {
     }, [])
 
     return (
-        <div className="contactus">
+        <div className="contactus" >
             <div className="contato">
                 <section className="addres">
                         <div>

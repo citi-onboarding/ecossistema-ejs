@@ -29,16 +29,16 @@ function Navbar() {
         </div>
         <ul className="nav-list">
           <li>
-            <a href="#">Home</a>
+            <a href="#home">Home</a>
           </li>
           <li>
-            <a href="#">Sobre nós</a>
+            <a href="#aboutus">Sobre nós</a>
           </li>
           <li>
-            <a href="#">Parcerias</a>
+            <a href="#partners">Parcerias</a>
           </li>
           <li>
-            <a href="#">
+            <a href="#contact">
               <b>Conecte-se</b>
             </a>
           </li>
