@@ -3,15 +3,31 @@ import './AboutUs.css';
 import aboutus from '../../assets/aboutus.png'
 
 function AboutUs() {
+  const [image, setImage] = useState()
+  const [text, setText] = useState()
+  const [text2, setText2] = useState()
+
+   const getTitle = async () => {
+    const res = await axios.get("http://localhost:1337/about-us");
+    const { Paragraph1, Paragraph2, about_us_photo } = res.data;
+    console.log(res.data);
+    setText(Paragraph1);
+    setText2(Paragraph2);
+    setImage(about_us_photo?.url)
+  };
+
+  useEffect (() => {
+    getTitle();
+  }, [])
   return (
     <div className="AboutUsPage">
      <div className="AboutUsContent">
-       <div className="AboutUsImg"><img src={aboutus} alt="Sobre nós" widht="445px" height="450px"/> </div>    
+       <div className="AboutUsImg"><img src={image} alt="Sobre nós" widht="445px" height="450px"/> </div>    
        <div className="AboutUsText" >
          <div className="AboutUsTitle"><p> Ecossistema Internacional de empresa Juniores</p></div>
          <div className="AboutUsp"></div>     
-           <div className="AboutUsp1"><p>Somos guiados pelo propósito e pelo sonho de um estado de São Paulo mais empreendedor. Por isso, temos consciência da nossa responsabilidade para fazer a diferença na vida de pequenas, médias e grandes empresas.</p></div>
-           <div className="AboutUsp2"><p>Somos guiados pelo propósito e pelo sonho de um estado de São Paulo mais empreendedor. Por isso, temos consciência da nossa responsabilidade para fazer a diferença na vida de pequenas, médias e grandes empresas.</p></div>
+           <div className="AboutUsp1"><p>{text}</p></div>
+           <div className="AboutUsp2"><p>{text2}</p></div>
        </div>
      </div>
     </div>
