@@ -44,6 +44,11 @@
     height: 377px;
 }
 
+.banner-image img {
+    width: 410px;
+    height: 377px;
+}
+
 .banner .max-width {
     height: 80vh;
     display: flex;
