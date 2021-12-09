@@ -1,5 +1,8 @@
 import React from 'react';
 import './AboutUs.css';
+import axios from 'axios';
+import { useState } from 'react';
+import { useEffect } from 'react';
 import aboutus from '../../assets/aboutus.png'
 
 function AboutUs() {
