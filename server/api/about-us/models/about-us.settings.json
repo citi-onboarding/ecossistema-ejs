@@ -2,7 +2,8 @@
   "kind": "singleType",
   "collectionName": "about_uses",
   "info": {
-    "name": "About us"
+    "name": "About us",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -22,6 +23,12 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
+    },
+    "Paragraph1": {
+      "type": "text"
+    },
+    "Paragraph2": {
+      "type": "text"
     }
   }
 }
