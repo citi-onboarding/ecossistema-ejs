@@ -12,11 +12,11 @@ function AboutUs() {
 
    const getTitle = async () => {
     const res = await axios.get("http://localhost:1337/about-us");
-    const { Paragraph1, Paragraph2, About_us_photo } = res.data;
+    const { Paragraph1, Paragraph2, about_us_photo } = res.data;
     console.log(res.data);
     setText(Paragraph1);
     setText2(Paragraph2);
-    setImage(About_us_photo)
+    setImage(about_us_photo?.url)
   };
 
   useEffect (() => {
@@ -25,7 +25,7 @@ function AboutUs() {
   return (
     <div className="AboutUsPage">
      <div className="AboutUsContent">
-       <div className="AboutUsImg"><img src={About_us_photo?.url} alt="Sobre nós" widht="445px" height="450px"/> </div>    
+       <div className="AboutUsImg"><img src={image} alt="Sobre nós" widht="445px" height="450px"/> </div>    
        <div className="AboutUsText" >
          <div className="AboutUsTitle"><p> Ecossistema Internacional de empresa Juniores</p></div>
          <div className="AboutUsp"></div>     
