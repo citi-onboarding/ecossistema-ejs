@@ -12,7 +12,6 @@
     justify-content: space-between;
 }
 .formulario{
-    margin-top: 120px;
     max-width: 700px;
 }
 .Form{
@@ -22,6 +21,7 @@
 }
 #forms-info{
     padding-right: 120px;
+    padding-top: 210px;
 }
 #conecte-text{
     padding-left: 40px;
@@ -31,6 +31,7 @@
     max-width: 435px;
     display: block;
     justify-content: start;
+    margin-bottom: 20px;
 }
 input{
     background: #FFFFFF;
