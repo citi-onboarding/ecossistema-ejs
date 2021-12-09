@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "results_texts",
+  "info": {
+    "name": "ResultsText"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ResultsTexto": {
+      "type": "text"
+    }
+  }
+}

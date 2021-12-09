@@ -41,9 +41,9 @@ function Contato() {
     }, [])
 
     return (
-        <div id="contactus">
+        <div className="contactus">
             <div className="contato">
-                <section id="addres">
+                <section className="addres">
                         <div>
                             <Contacttext justify="left" Contacttext="Onde nos encontrar:"/>
                             <Contacttext justify="left" Contacttext={endereco}/>
@@ -52,8 +52,8 @@ function Contato() {
                     <section id="logo">
                         <img src= {imagem?.url} alt=""/>
                     </section>
-                    <section id="contact">
-                        <div id="reach_us">
+                    <section className="contact">
+                        <div className="reach_us">
                             <Contacttext justify="right" Contacttext="Fale conosco!"/>
                             <Contacttext justify="right" Contacttext={telefone}/>
                             <div id="email">
