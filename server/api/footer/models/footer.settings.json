@@ -2,7 +2,8 @@
   "kind": "singleType",
   "collectionName": "footers",
   "info": {
-    "name": "Footer"
+    "name": "Footer",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -23,22 +24,22 @@
       "required": false,
       "pluginOptions": {}
     },
-    "forma_de_contato_1": {
+    "Telefone": {
       "type": "string"
     },
-    "forma_de_contato_2": {
+    "Email": {
       "type": "string"
     },
-    "forma_de_contato_3": {
+    "Instagram": {
       "type": "string"
     },
-    "forma_de_contato_4": {
+    "Youtube": {
       "type": "string"
     },
-    "forma_de_contato_5": {
+    "Google": {
       "type": "string"
     },
-    "endereco": {
+    "Endereco": {
       "type": "string"
     }
   }
