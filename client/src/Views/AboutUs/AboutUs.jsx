@@ -1,9 +1,6 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import './AboutUs.css';
-
-import { useState } from 'react';
-
-import axios from 'axios';
+import aboutus from '../../assets/aboutus.png'
 
 function AboutUs() {
   const [image, setImage] = useState()
