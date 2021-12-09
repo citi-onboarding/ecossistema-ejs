@@ -49,18 +49,19 @@ function Contato() {
                             <Contacttext justify="left" Contacttext={endereco}/>
                         </div>
                     </section>
-                    <section id="logo">
-                        <img src= {imagem?.url} alt=""/>
+                    <section className="logo">
+                        <img className="logo-image"src= {imagem?.url} alt="Logo do Ecossistema Internacional
+                        de Empresas Juniores"/>
                     </section>
                     <section className="contact">
                         <div className="reach_us">
                             <Contacttext justify="right" Contacttext="Fale conosco!"/>
                             <Contacttext justify="right" Contacttext={telefone}/>
-                            <div id="email">
+                            <div className="email">
                                 <Contacttext justify="right" Contacttext={email}/>
                             </div>
                         </div>
-                        <div id="socialmedia">
+                        <div className="socialmedia">
                             <SocialMediaButton link={instagram} image= {Instagram} imagedescription=""/>
                             <SocialMediaButton link={youtube} image= {Youtube} imagedescription=""/>
                             <SocialMediaButton link={google} image= {Googlefooter} imagedescription=""/>
