@@ -7,7 +7,7 @@ import './Contato.css'
 import{
     Youtube,
     Instagram,
-    Google
+    Googlefooter
 } from '../../assets';
 
 import {
@@ -63,7 +63,7 @@ function Contato() {
                         <div id="socialmedia">
                             <SocialMediaButton link={instagram} image= {Instagram} imagedescription=""/>
                             <SocialMediaButton link={youtube} image= {Youtube} imagedescription=""/>
-                            <SocialMediaButton link={google} image= {Google} imagedescription=""/>
+                            <SocialMediaButton link={google} image= {Googlefooter} imagedescription=""/>
                         </div>
                     </section>
             </div>
