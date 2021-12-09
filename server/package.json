@@ -12,6 +12,7 @@
   },
   "devDependencies": {},
   "dependencies": {
+    "axios": "^0.24.0",
     "fs": "^0.0.1-security",
     "knex": "^0.95.14",
     "pg": "^8.7.1",
