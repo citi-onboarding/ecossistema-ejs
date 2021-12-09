@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Enterprises.css";
 
 import Slider from "react-slick";
+import axios from 'axios';
+
+import { useState } from 'react';
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -11,6 +14,15 @@ import { UnderlineTitle, EjCard } from "../../Components";
 import { Bandeira1, Bandeira2, Bandeira3, Bandeira4 } from "../../assets";
 
 function Enterprises() {
+  const [enterprises, setEnterprises] = useState([])
+
+  const getEnterprises = async () => {
+    const res = await axios.get(`http://localhost:1337/e-js`);
+    const enterprises = res.data;
+    console.log(enterprises);
+    setEnterprises(enterprises);
+  };
+
   const settings = {
     dots: false,
     infinite: true,
@@ -18,53 +30,25 @@ function Enterprises() {
     slidesToShow: 4,
     slidesToScroll: 1,
   };
+
+  useEffect (() => {
+    getEnterprises();
+  }, [])
+
   return (
     <div className="our-ejs">
       <div className="enterprises-width">
         <UnderlineTitle title="Nossas Empresas Juniores" />
         <Slider {...settings}>
-          <EjCard
-            university="UFPE"
-            class="Ciências econômicas"
-            image={Bandeira1}
-            title="FEA Júnior USP"
-            category="Gestão empresarial"
+        {enterprises?.map(({AreaAtuacao, Curso, FotoEJ, Universidade, NomeEJ}) => (
+                  <EjCard
+            university={Universidade}
+            class={Curso}
+            image={FotoEJ[0]?.url}
+            title={NomeEJ}
+            category={AreaAtuacao}
           />
-          <EjCard
-            university="UFPE"
-            class="Ciências econômicas"
-            image={Bandeira2}
-            title="POLI JR."
-            category="Gestão de Processos"
-          />
-          <EjCard
-            university="UFPE"
-            class="Ciências econômicas"
-            image={Bandeira3}
-            title="UNICAP"
-            category="Engenharia e arquitetura"
-          />
-          <EjCard
-            university="UFPE"
-            class="Ciências econômicas"
-            image={Bandeira4}
-            title="CITi"
-            category="Tecnologia e Inovação"
-          />
-          <EjCard
-            university="UFPE"
-            class="Ciências econômicas"
-            image={Bandeira1}
-            title="FEA Júnior USP"
-            category="Gestão empresarial"
-          />
-          <EjCard
-            university="UFPE"
-            class="Ciências econômicas"
-            image={Bandeira2}
-            title="POLI JR."
-            category="Gestão de Processos"
-          />
+            ))}
         </Slider>
       </div>
     </div>

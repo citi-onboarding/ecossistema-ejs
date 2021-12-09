@@ -1,9 +1,8 @@
 {
   "kind": "singleType",
-  "collectionName": "conecte_ses",
+  "collectionName": "results_texts",
   "info": {
-    "name": "Conecte-se",
-    "description": ""
+    "name": "ResultsText"
   },
   "options": {
     "increments": true,
@@ -12,13 +11,7 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Paragrafo_1": {
-      "type": "text"
-    },
-    "Paragrafo_2": {
-      "type": "text"
-    },
-    "Paragrafo_3": {
+    "ResultsTexto": {
       "type": "text"
     }
   }
