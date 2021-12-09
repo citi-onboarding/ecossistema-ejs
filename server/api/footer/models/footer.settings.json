@@ -12,7 +12,7 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "imagem": {
+    "Imagem": {
       "model": "file",
       "via": "related",
       "allowedTypes": [

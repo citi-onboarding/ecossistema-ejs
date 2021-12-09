@@ -27,8 +27,8 @@ function Contato() {
   
     const getFooter = async () => {
       const res = await axios.get(`http://localhost:1337/footer`);
-      const { Imagem, Telefone, Email, Instagram, Youtube, Google, Endereco } = res.data;
-      setImagem(Imagem);
+      const { imagem, Telefone, Email, Instagram, Youtube, Google, Endereco } = res.data;
+      setImagem(imagem);
       setTelefone(Telefone);
       setEmail(Email);
       setInstagram(Instagram);
@@ -50,7 +50,7 @@ function Contato() {
                         </div>
                     </section>
                     <section id="logo">
-                        <img src= {imagem} alt="" />
+                        <img src= {imagem} alt=""/>
                     </section>
                     <section id="contact">
                         <div id="reach_us">
