@@ -9,6 +9,10 @@ import {
     Divider
 } from '../../Components';
 
+import {
+  Navbar
+} from '../';
+
 function Banner() {
   const [text, setText] = useState();
   const [title, setTitle] = useState();
@@ -29,7 +33,8 @@ function Banner() {
     getText();
   }, [])
   return (
-    <div className="banner">
+    <div className="banner" id='home'>
+      <Navbar/>
     <div className="banner-content">
       <div className="max-width">
         <div className="banner-text">
